@@ -1,9 +1,3 @@
 def prepare_gifts(gifts):
-
-
-  if(gifts.count()!=0)
-    gifts = set(gifts)
-    gifts.sort()
-
-
-  return [gifts]
+  unique_gifts = sorted(set(gifts))
+return unique_gifts
